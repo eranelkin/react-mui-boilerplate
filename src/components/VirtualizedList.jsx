@@ -31,10 +31,13 @@ const VirtualizedList = () => (
         display: "flex",
         fontWeight: "bold",
         fontSize: 24,
-        marginBottom: 12,
+        marginBottom: 6,
       }}
     >
       Virtualized List
+    </div>
+    <div style={{ display: "flex", marginBottom: 16 }}>
+      (using react-virtualized)
     </div>
     <List
       width={400}

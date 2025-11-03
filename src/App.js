@@ -1,12 +1,14 @@
 import { Textarea } from "@mui/joy";
-import "./App.scss";
 import Input from "@mui/joy/Input";
 import VirtualizedList from "./components/VirtualizedList";
+import PaginatedFetch from "./components/PaginatedFetch/PaginatedFetch";
+
+import "./App.scss";
 
 function App() {
   return (
-    <div className="App" style={{ display: "flex", flexDirection: "column" }}>
-      <Input
+    <div className="App" style={{ display: "flex" }}>
+      {/* <Input
         color="neutral"
         variant="plain"
         placeholder="type..."
@@ -31,8 +33,9 @@ function App() {
         rows="5"
         placeholder="Write your message here..."
       ></textarea>
-      <div style={{ paddingTop: 16 }} />
+      <div style={{ paddingTop: 16 }} /> */}
       <VirtualizedList />
+      <PaginatedFetch />
     </div>
   );
 }
