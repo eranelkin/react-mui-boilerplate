@@ -6,6 +6,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.1",
+    "@mui/joy": "^5.0.0-beta.52",
     "@mui/material": "^7.3.1",
     "@mui/styled-engine-sc": "^7.3.1",
     "@testing-library/dom": "^10.4.1",
@@ -15,6 +16,8 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
+    "react-virtualized": "^9.22.6",
+    "react-window": "^2.2.2",
     "sass": "^1.91.0",
     "styled-components": "^6.1.19",
     "web-vitals": "^2.1.4"

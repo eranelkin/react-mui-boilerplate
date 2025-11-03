@@ -1,4 +1,14 @@
 .App {
   text-align: center;
   padding: 20px;
+
+  #input_name,
+  #textarea_message {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
 }

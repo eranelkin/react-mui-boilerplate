@@ -1,7 +1,40 @@
+import { Textarea } from "@mui/joy";
 import "./App.scss";
+import Input from "@mui/joy/Input";
+import VirtualizedList from "./components/VirtualizedList";
 
 function App() {
-  return <div className="App">Start Here...</div>;
+  return (
+    <div className="App" style={{ display: "flex", flexDirection: "column" }}>
+      <Input
+        color="neutral"
+        variant="plain"
+        placeholder="type..."
+        sx={{ width: 250 }}
+      />
+      <div style={{ height: 1, padding: 10 }} />
+      <Textarea
+        size="md"
+        name="Size"
+        placeholder="Medium"
+        sx={{ width: 250 }}
+      />
+      <input
+        type="text"
+        id="input_name"
+        name="name"
+        placeholder="Enter your name"
+      />
+      <textarea
+        id="textarea_message"
+        name="message"
+        rows="5"
+        placeholder="Write your message here..."
+      ></textarea>
+      <div style={{ paddingTop: 16 }} />
+      <VirtualizedList />
+    </div>
+  );
 }
 
 export default App;
